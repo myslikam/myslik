@@ -1,3 +1,25 @@
 html * {
   outline: 1px solid red;
 }
+.stub {
+  height: 20px;
+}
+.class1 {
+ height: 200px;
+ width: 200px;
+ background-color: red; 
+}
+.class2 {
+  height: 100px;
+  width: 100px;
+  background-color:green; 
+ }
+ .class3 {
+  height: 50px;
+  width: 50px; 
+  background-color: yellow; 
+ }
+ 
+ .class1 .class3 {
+  background-color: blue); 
+ }
