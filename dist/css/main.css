@@ -1,4 +1,37 @@
+@font-face {
+  font-family: "new";
+  src: url("../fonts/18712.ttf"); }
+
 html * {
-  outline: 1px solid red; }
+  outline: 1px solid red;
+  font-family: "new";
+  text-align: center; }
+
+.overflow {
+  margin: auto;
+  height: 600px;
+  width: 200px;
+  font-size: 16px;
+  border: 1px solid black;
+  overflow: hidden;
+  overflow-y: scroll;
+  opacity: 0.9;
+  position: relative; }
+
+.block2 {
+  height: 50px;
+  background-color: grey; }
+
+.overflow:hover:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: rgba(114, 109, 109, 0.5);
+  width: 100%;
+  z-index: 1;
+  border-radius: 50% 30px; }
 
 /*# sourceMappingURL=maps/main.css.map */
