@@ -5,7 +5,8 @@ html * {
   max-width: 940px;
   margin: auto;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  min-height: 100%; }
 
 .hot {
   margin: auto; }
@@ -55,15 +56,25 @@ h1 {
 .sexy {
   padding-left: 20px; }
 
+.main2 {
+  font-size: 25px;
+  background-color: white; }
+
 .main1 {
   padding-top: 15px;
   height: 2px;
-  max-width: 640px;
-  background-color: rgba(0, 0, 0, 0.61); }
+  max-width: 640px; }
 
-.main2 {
-  position: absolute;
-  font-size: 25px;
-  background-color: white; }
+.main_news {
+  max-width: 640px;
+  display: flex;
+  justify-content: space-between; }
+
+.news {
+  height: 80px;
+  width: 140px; }
+
+.footer {
+  min-height: 100%; }
 
 /*# sourceMappingURL=maps/main.css.map */
