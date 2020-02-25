@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html * {
   outline: 0px solid red; }
 
@@ -72,7 +73,6 @@ h1 {
   justify-content: space-around; }
 
 .news {
-  height: 90px;
   width: 142px;
   font-size: 14px; }
 
@@ -100,7 +100,8 @@ h1 {
 
 .video4 {
   height: 90px;
-  width: 140px; }
+  width: 140px;
+  position: relative; }
 
 .video5 {
   height: 90px;
@@ -109,5 +110,29 @@ h1 {
   text-align: left;
   margin-left: 5px;
   overflow: hidden; }
+
+a {
+  text-decoration: none;
+  line-height: 1.5; }
+
+.Last_News_Newsfeed {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between; }
+
+.last_sfeed {
+  width: 400px; }
+
+.here {
+  width: 220px; }
+
+.bottom_video {
+  position: absolute;
+  bottom: 2px;
+  /* Положение от нижнего края */
+  left: 3px;
+  /* Положение от правого края */
+  font-size: 20px; }
 
 /*# sourceMappingURL=maps/main.css.map */
