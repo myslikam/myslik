@@ -2,6 +2,13 @@
 html * {
   outline: 0px solid red; }
 
+.Collected {
+  display: flex; }
+
+p {
+  margin-left: 5px;
+  font-weight: bold; }
+
 .euro {
   max-width: 940px;
   margin: auto;
@@ -133,6 +140,10 @@ a {
   /* Положение от нижнего края */
   left: 3px;
   /* Положение от правого края */
-  font-size: 20px; }
+  margin: 0;
+  padding: 0;
+  border: 2px solid white;
+  border-radius: 3px;
+  height: 16.7px; }
 
 /*# sourceMappingURL=maps/main.css.map */

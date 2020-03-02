@@ -1,6 +1,7 @@
 html * {
   outline: 0px solid red;
 }
+@import "./partials/Newsfeed.scss";
 .euro {
 max-width: 940px;
 margin: auto;
@@ -134,5 +135,9 @@ a {
  position: absolute;
  bottom: 2px; /* Положение от нижнего края */
  left: 3px; /* Положение от правого края */
- font-size: 20px;
+ margin: 0;
+ padding: 0;
+ border: 2px solid white;
+ border-radius: 3px;
+ height: 16.7px;
  }
