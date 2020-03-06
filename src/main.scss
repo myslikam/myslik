@@ -133,11 +133,17 @@ a {
 }
 .bottom_video {
  position: absolute;
- bottom: 2px; /* Положение от нижнего края */
- left: 3px; /* Положение от правого края */
+ bottom: 2px; 
+ left: 3px; 
  margin: 0;
  padding: 0;
  border: 2px solid white;
  border-radius: 3px;
  height: 16.7px;
  }
+ .int_stat.main1 {
+  font-size: 20px;
+  width: auto;
+  border-bottom: 2px solid gray;
+ }
+@import "./partials/int_stati.scss";
