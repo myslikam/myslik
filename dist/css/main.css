@@ -23,6 +23,8 @@ html * {
   flex-direction: row-reverse;
   width: 400px;
   margin: auto;
-  margin-top: 50px; }
+  margin-top: 50px;
+  border: 5px outset #afaeae;
+  padding: 5px; }
 
 /*# sourceMappingURL=maps/main.css.map */
