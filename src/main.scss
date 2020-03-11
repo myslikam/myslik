@@ -1,3 +1,13 @@
 html * {
-  outline: 1px solid red;
+  outline: 0px solid red;
+}
+
+@import './partials/rating.scss';
+
+.raiting {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
 }
