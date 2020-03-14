@@ -3,10 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha256-qvCL5q5O0hEpOm1CgOLQUuHzMusAZqDcAZL9ijqfOdI=" crossorigin="anonymous" />
+    
+    <!-- <link rel="stylesheet" href="https://owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel/owl.theme.default.min.css"> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha256-251s88HEsEfGL2RufZmRwGohKTHDYr9T+aJAazDwlGY=" crossorigin="anonymous"></script>
+   
     <script src="./js/main.js"></script>
     <title>Hello world</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    
+    <div class="owl-carousel">
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+        loop:true,
+        margin:10,
+        nav:true,
+      });
+    </script>
   </body>
 </html>
