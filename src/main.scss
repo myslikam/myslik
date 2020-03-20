@@ -1,34 +1,24 @@
 html * {
   outline: 0px solid red;
 }
-@import "./partials/login_password.scss";
-.menu {
+
+.admin {
   min-height: 70px;
   width: auto;
   background-color: #e9ebf0;
-  /* border-bottom: 2px solid grey; */
- 
- }
-
-.name {
   text-align: center;
+  }
+
+.objects {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
-  padding: 12px;
-  
-}
+  display: inline-block;
+ }
 .gradient {
   height: 4px;
   width: auto;
+  margin-bottom: 0;
   background: linear-gradient(to right, #ff3d01 0%,#ffb200 17%,#9ace03 34%,#8dc41a 50%,#9ace03 66%,#ffb200 83%,#ff3d01 100%);
 }
-
-/* .container {
-    background-color: #f8f9fb;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    } */
-
 
