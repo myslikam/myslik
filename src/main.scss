@@ -2,14 +2,14 @@ html * {
   outline: 0px solid red;
 }
 
-.admin {
+.menu {
   min-height: 70px;
   width: auto;
   background-color: #e9ebf0;
   text-align: center;
   }
 
-.objects {
+.name {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
@@ -21,4 +21,26 @@ html * {
   margin-bottom: 0;
   background: linear-gradient(to right, #ff3d01 0%,#ffb200 17%,#9ace03 34%,#8dc41a 50%,#9ace03 66%,#ffb200 83%,#ff3d01 100%);
 }
-
+.admin {
+max-width: 1200px;
+margin: 10px auto;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+display: flex;
+justify-content: space-between;
+}
+.admin_info {
+  display: flex;
+  margin: 0;
+  top: 50%;
+}
+.admin_info > p {
+  display: inline-block;
+  margin: auto 5px;
+}
+input {
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+background-color: #fafbfd;
+margin: auto 5px;
+}
