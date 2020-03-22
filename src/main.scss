@@ -45,3 +45,39 @@ font-size: 18px;
 background-color: #fafbfd;
 margin: auto 5px;
 }
+.list {
+  margin: 0 auto;
+  padding: 0;
+}
+.list > p{
+  display: block;
+  text-align: center;
+  margin: 0 auto 8px auto;
+  padding: 0;
+}
+.objects {
+  max-width: 1200px;
+  margin: 10px auto 10px auto;
+}
+table, tr, td {
+  border-collapse: collapse;
+  border: 1px solid grey; 
+  padding: 5px;
+}
+table {
+  width: 100%;
+  }
+
+thead > tr {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid grey;
+  background-color: #e9ebf0;
+
+}
+table td:first-child {
+  text-align: center;
+}
+table td:nth-child(5) {
+  white-space: nowrap;
+} 
