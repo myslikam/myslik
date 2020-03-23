@@ -3,7 +3,6 @@ html * {
 }
 
 .menu {
-  min-height: 70px;
   width: auto;
   background-color: #e9ebf0;
   text-align: center;
@@ -14,7 +13,7 @@ html * {
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
- }
+  }
 .gradient {
   height: 4px;
   width: auto;
@@ -81,3 +80,26 @@ table td:first-child {
 table td:nth-child(6) {
   white-space: nowrap;
 } 
+a.button_admin {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  width: 6em;
+  height: 1.5em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+  outline: none;
+  border: 1px solid rgb(73, 72, 72);
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .3em grey;
+  background: #e9ebf0;
+}
+a.button_admin:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
