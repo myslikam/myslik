@@ -18,48 +18,20 @@ html * {
   margin-bottom: 0;
   background: linear-gradient(to right, #ff3d01 0%, #ffb200 17%, #9ace03 34%, #8dc41a 50%, #9ace03 66%, #ffb200 83%, #ff3d01 100%); }
 
-.admin {
-  max-width: 1200px;
-  margin: 10px auto;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e9ebf0; }
-
-.admin_info {
-  margin: 0;
-  top: 50%; }
-
-.admin_info > p {
-  display: inline-block;
-  margin: auto 5px; }
-
-input {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  background-color: #fafbfd;
-  margin: auto 5px; }
-
-.list {
-  margin: 0 auto;
-  padding: 0; }
-
-.list > p {
-  display: block;
-  text-align: center;
-  margin: 0 auto 8px auto;
-  padding: 0; }
-
-.objects {
+.ter {
   max-width: 1200px;
   margin: 10px auto 10px auto; }
+
+caption {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px; }
 
 table, tr, td {
   border-collapse: collapse;
   border: 1px solid grey;
-  padding: 5px; }
+  padding: 5px;
+  text-align: center; }
 
 table {
   width: 100%; }
@@ -73,8 +45,8 @@ thead > tr {
 table td:first-child {
   text-align: center; }
 
-table td:nth-child(6) {
-  white-space: nowrap; }
+table td:nth-child(3) {
+  text-align: left; }
 
 a.button_admin {
   margin-top: 10px;
