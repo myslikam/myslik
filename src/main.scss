@@ -80,7 +80,7 @@ table td:first-child {
 table td:nth-child(6) {
   white-space: nowrap;
 } 
-a.button_admin {
+a.button_admin, .btn {
   margin-top: 10px;
   position: relative;
   display: inline-block;
@@ -98,8 +98,142 @@ a.button_admin {
   box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .3em grey;
   background: #e9ebf0;
 }
-a.button_admin:active {
+a.button_admin:hover, .btn:hover {
+  background-color: #f4f6fa;
+}
+a.button_admin:active, .btn:active {
   top: .1em;
   left: .1em;
   box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+/* Модальное окно */
+/* Стили модального окна */
+.modal-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  }
+.modal-header {
+  background-color: #e9ebf0; 
+}
+
+/* кнопка закрытия окна */
+.modal .btn-close {
+  color: #aaa;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+.modal .btn-close:hover {
+  color: red;
+}
+/* слой затемнения */
+.modal-wrap:before {
+  content: "";
+  display: none;
+  background: rgba(0, 0, 0, .3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  }
+.modal-overlay {
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 102;
+}
+/* активация слоя затемнения и модального блока */
+.modal-open:checked ~ .modal-wrap:before,
+.modal-open:checked ~ .modal-wrap .modal-overlay {
+  display: block;
+}
+.modal-open:checked ~ .modal-wrap .modal-dialog {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 20%;
+}
+/* элементы модального окна */
+.modal-dialog {
+  background: #fefefe;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  width: 80%;
+  width: 700px;
+  left: 50%;
+  top: -100%;
+  -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  -webkit-transform: translate(-50%, -500%);
+  -ms-transform: translate(-50%, -500%);
+  -o-transform: translate(-50%, -500%);
+  transform: translate(-50%, -500%);
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  -moz-transition: -moz-transform 0.4s ease-out;
+  -o-transition: -o-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  z-index: 103;
+}
+.modal-body {
+padding: 20px;
+}
+.modal-body p {
+  margin: 0;
+}
+.modal-header,
+.modal-footer {
+  padding: 20px 20px;
+}
+.modal-header {
+  border-bottom: #eaeaea solid 1px;
+}
+.modal-header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.modal-footer {
+  text-align: right;
+  background-color: #e9ebf0;
+  padding: 5px 15px 15px 10px; 
+}
+/* адаптивные картинки в модальном блоке */
+.modal-body img { 
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ввод данных по организации */
+.modal-body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9ebf0;
+}
+
+.organization_info {
+  display: flex;
+  margin: 5px;
+  top: 50%;
+}
+.organization_info > p {
+  display: inline-block;
+  margin: auto 5px;
+  width: 100px;
+}
+.organization_info input {
+  width: 500px;
 }
