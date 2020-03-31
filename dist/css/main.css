@@ -63,7 +63,8 @@ table, tr, td {
   padding: 5px; }
 
 table {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 10px; }
 
 thead > tr {
   text-align: center;
@@ -78,7 +79,6 @@ table td:nth-child(6) {
   white-space: nowrap; }
 
 a.button_admin, .btn {
-  margin-top: 10px;
   position: relative;
   display: inline-block;
   width: 6em;
