@@ -2,70 +2,18 @@
 html * {
   outline: 0px solid red; }
 
-.menu {
-  width: auto;
-  background-color: #e9ebf0;
-  text-align: center; }
-
-.name {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: bold;
-  display: inline-block; }
-
 .gradient {
   height: 4px;
   width: auto;
   margin-bottom: 0;
   background: linear-gradient(to right, #ff3d01 0%, #ffb200 17%, #9ace03 34%, #8dc41a 50%, #9ace03 66%, #ffb200 83%, #ff3d01 100%); }
 
-.admin {
-  max-width: 1200px;
-  margin: 10px auto;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e9ebf0; }
-
-.admin_info {
-  margin: 0;
-  top: 50%; }
-
-.admin_info > p {
-  display: inline-block;
-  margin: auto 5px; }
-
 input {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   background-color: #fafbfd;
-  margin: auto 5px; }
-
-.list {
-  margin: 0 auto;
-  padding: 0; }
-
-.list > p {
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  margin: 0 auto 8px auto;
-  padding: 0; }
-
-.objects {
-  max-width: 1200px;
-  margin: 10px auto 10px auto; }
-
-table, tr, td {
-  border-collapse: collapse;
-  border: 1px solid grey;
-  padding: 5px; }
-
-table {
-  width: 100%;
-  margin-bottom: 10px; }
+  margin: auto 5px;
+  text-align: center; }
 
 thead > tr {
   text-align: center;
@@ -211,24 +159,38 @@ a.button_admin:active, .btn:active {
   max-width: 100%;
   height: auto; }
 
-/* Ввод данных по организации */
+/* Ввод данных ТЕР */
 .modal-body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   padding-bottom: 10px;
   border-bottom: 1px solid #e9ebf0; }
 
-.organization_info {
+.formula {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.formula > p {
+  margin-bottom: 10px; }
+
+h3 {
+  text-align: center; }
+
+.ter {
   display: flex;
   margin: 5px;
   top: 50%; }
 
-.organization_info > p {
+.ter > p {
   display: inline-block;
-  margin: auto 5px;
+  margin: auto 5px; }
+
+.ter input {
   width: 100px; }
 
-.organization_info input {
-  width: 500px; }
+.calculation_tut {
+  margin: 25px auto 15px auto;
+  text-align: center; }
 
 /*# sourceMappingURL=maps/main.css.map */

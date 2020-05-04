@@ -4,78 +4,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/main.js"></script>
-    <title>Data</title>
+    <title>т у.т</title>
   </head>
   <body>
-    <div class="menu">
-      <div class="name">
-        <p>ДАННЫЕ АДМИНИСТРАТОРА, И ПЕРЕЧЕНЬ ОБЪЕКТОВ</p>
-      </div>
-    </div>
-    <div class="gradient"></div>
+   
     
-    <div class="admin">
-      <div class="admin_info">
-        <p>ФИО администратора:<p>
-        <input type="text" size="30">
-      </div>
-      <div class="admin_info">
-        <p>Телефон:<p>
-        <input type="tel" size="12">
-      </div>
-      <div class="admin_info">
-        <p>Email:<p>
-        <input type="email" size="15">
-      </div>
-    </div>
-    
-    <div class="admin list">
-      <p>ПЕРЕЧЕНЬ ОБЪЕКТОВ</p>
-    </div>
-
-    <div class="objects">
-     
-      <table>
-        <thead>
-         <tr>
-            <td colspan="2">№</td>
-            <td>Название организации</td>
-            <td>Адрес</td>
-            <td>Ответственный исполнитель</td>
-            <td>Телефон</td>
-            <td>Email / login</td>
-            <td>Пороль</td>
-          </tr>
-      </thead>
-      <tbody>
-           <tr>
-            <td><input type="radio" name="admin_edit"></td>
-            <td>1</td>
-            <td>ОАО «Гомельский винодельческий завод»</td>
-            <td>246003, г.Гомель, ул. Рогачевская, 10</td>
-            <td>Каверзникова Галина Барисовна</td>
-            <td>+375-29-954-05-91</td>
-            <td>myslik@yandex.by</td>
-            <td>123456</td>
-           </tr>
-          <tr>
-            <td><input type="radio" name="admin_edit"></td>
-            <td>2</td>
-            <td>ОАО «Гомельский винодельческий завод»</td>
-            <td>246003, г.Гомель, ул. Рогачевская, 10</td>
-            <td>Каверзникова Галина Барисовна</td>
-            <td>+375-29-954-05-91</td>
-            <td>myslik.by</td>
-            <td>123456</td>
-          </tr>
-      </tbody>
-      </table>
       <!-- Кнопка активации Модальное окно-->
-      <label class="btn" for="modal-1" title="Добавить объект">Добавить</label>
-      <!-- Кнопки редактирования-->
-      <a href="#" class="button_admin" title="Выберите строку для удаления">Удалить</a>
-      <a href="#" class="button_admin" title="Редактировать объект">Изменить</a>
-            
+      <label class="btn" for="modal-1" title="Добавить объект">Расчитать</label>
+                
       <!-- Модальное окно -->
       <div class="modal">
         <input class="modal-open" id="modal-1" type="checkbox" hidden>
@@ -83,47 +19,54 @@
           <label class="modal-overlay" for="modal-1"></label>
           <div class="modal-dialog">
             <div class="modal-header">
-              <h2>ВВЕДИТЕ ДАННЫЕ ОРГАНИЗАЦИИ</h2>
+              <h2>Онлайн расчет годового расхода топливно-энергетических ресурсов (ТЭР)</h2>
               <label class="btn-close" for="modal-1" aria-hidden="true">×</label>
             </div>
             <div class="gradient"></div>
             <div class="modal-body">
+              <div class="formula">
+                <p>Годовое потребление ТЭР в т у.т, определяется по формуле:</p>
+                <p><i>В<sub>ТУТ</sub> = W<sub>ГОД</sub> × 0,123 + Q<sub>ГОД</sub> × 0,143 + В<sub>ГОД</sub></i>, т у.т</p>
+              </div>
+                <h3>Введите даные</h3>
+
+                <div class="ter">
+                  <p style="width: 320px">Годовой расход электроэнергии <i>W<sub>ГОД</i> :<p>
+                  <input type="text" name="W_tut">
+                  <p>тыс.кВт.ч</p>
+                </div>
+
+                <div class="ter">
+                  <p style="width: 320px">Годовой расход тепловой энергии <i>Q<sub>ГОД</sub></i> :<p>
+                  <input type="text" name="Q_tut">
+                  <p>Гкал (со стороны).</p>
+                </div>
+
+                <div class="ter">
+                <p style="width: 320px">Годовой расход топлива <i>В<sub>ГОД</sub></i> :<p>                  
+                <input type="text" name="B_tut">
+                <p>т у.т.</p>
+              </div>
+
+              <div class="calculation_tut">
+                <p><i>В<sub>ТУТ</sub> = W<sub>ГОД</sub> × 0,123 + Q<sub>ГОД</sub> × 0,143 + В<sub>ГОД</sub></i> = т у.т</p>
+              </div>  
               
-              <div class="organization_info">
-                <p>Название:<p>
-                <input type="text">
-              </div>
-              <div class="organization_info">
-                <p>Адрес:<p>
-                <input type="text" maxlength=50>
-              </div>
-              <div class="organization_info">
-                <p>Исполнитель:<p>
-                <input type="text">
-              </div>
-              <div class="organization_info">
-                <p>Телефон:<p>
-                <input type="tel">
-              </div>
-              <div class="organization_info">
-                <p>Email / login:<p>
-                <input type="email">
-              </div>
-              <div class="organization_info">
-                <p>Пороль:<p>
-                <input type="password">
-              </div>
+              
                          
             </div>
             <div class="modal-footer">
-              <label class="btn btn-primary" for="modal-1">Сохранить</label>
+              
+              <input class="btn btn-primary" type="button" value="Вычислить" onClick="pp(form2)">
+
+              <label class="btn btn-primary" for="modal-1">Закрыть</label>
+              
             </div>
           </div>
         </div>
-      </div>
-    
+      </div>    
       
-    </div>
+   
 
   </body>
 </html>
