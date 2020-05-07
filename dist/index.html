@@ -32,24 +32,24 @@
 
                 <div class="ter">
                   <p style="width: 320px">Годовой расход электроэнергии <i>W<sub>ГОД</i> :<p>
-                  <input type="text" name="W_tut">
+                  <input type="text" id="W_tut" value="">
                   <p>тыс.кВт.ч</p>
                 </div>
 
                 <div class="ter">
                   <p style="width: 320px">Годовой расход тепловой энергии <i>Q<sub>ГОД</sub></i> :<p>
-                  <input type="text" name="Q_tut">
+                  <input type="text" id="Q_tut" value="">
                   <p>Гкал (со стороны).</p>
                 </div>
 
                 <div class="ter">
                 <p style="width: 320px">Годовой расход топлива <i>В<sub>ГОД</sub></i> :<p>                  
-                <input type="text" name="B_tut">
+                <input type="text" id="B_tut" value="">
                 <p>т у.т.</p>
               </div>
 
               <div class="calculation_tut">
-                <p><i>В<sub>ТУТ</sub> = W<sub>ГОД</sub> × 0,123 + Q<sub>ГОД</sub> × 0,143 + В<sub>ГОД</sub></i> = т у.т</p>
+                <div id="tut"></div> 
               </div>  
               
               
@@ -57,8 +57,8 @@
             </div>
             <div class="modal-footer">
               
-              <input class="btn btn-primary" type="button" value="Вычислить" onClick="pp(form2)">
-
+              <!-- <button onclick="raschitat();" class="btn">Вычислить</button> -->
+              <label onclick="raschitat();" class="btn">Вычислить</label>
               <label class="btn btn-primary" for="modal-1">Закрыть</label>
               
             </div>

@@ -1,11 +1,27 @@
 
-function pp (obj) // создаем функцию вычисления площади и периметра
-{var a=Number(obj.W_tut.value) // присваиваем преременной a значение 1-ой стороны
-var b=Number(obj.Q_tut.value) // присваиваем преременной b значение 2-ой стороны
-var c=Number(obj.B_tut.value) // присваиваем преременной c значение 3-ей стороны
-var s; p=a+b+c; // определяем переменную s, вычисляем периметр
-document.writeln("Периметр треугольника равен ",p,"<br>"); // выводим значение периметра
-p=p/2;//вычисляем полупериметр
-s=Math.sqrt(p*(p-a)*(p-b)*(p-c)); // вычисляем площадь
-document.write("Площадь треугольника равна ",s);
+function raschitat() {
+/* получить данные */
+Wtut  = document.getElementById('W_tut').value;
+Qtut  = document.getElementById('Q_tut').value;
+Btut  = document.getElementById('B_tut').value;
+
+/* Проверка на пустое поле */
+if (Wtut == ""){
+    alert("Вы не указали расход электроэнергии");
+    }
+    else if (Qtut == ""){
+    alert("Вы не указали расход тепловой энергии");
+    }
+    else if (Btut == ""){
+        alert("Вы не указали расход топлива");
+        }
+    /* Расчет */
+    else {
+        TUT = parseFloat(Wtut * 0.123 + Qtut * 0.143 + Btut);
+        document.getElementById('tut').innerHTML = " Годовое потребление ТЭР равно  " + TUT + " т у.т.";
+    }
 }
+
+
+
+            
