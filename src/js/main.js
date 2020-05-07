@@ -18,7 +18,7 @@ if (Wtut == ""){
     /* Расчет */
     else {
         TUT = parseFloat(Wtut * 0.123 + Qtut * 0.143 + Btut);
-        document.getElementById('tut').innerHTML = " Годовое потребление ТЭР равно  " + TUT + " т у.т.";
+        document.getElementById('tut').innerHTML = " Годовое потребление ТЭР равно  " + TUT.toFixed(1) + " т у.т.";
     }
 }
 
