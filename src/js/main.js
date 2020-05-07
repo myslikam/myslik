@@ -1,9 +1,9 @@
 
 function raschitat() {
 /* получить данные */
-Wtut  = document.getElementById('W_tut').value;
-Qtut  = document.getElementById('Q_tut').value;
-Btut  = document.getElementById('B_tut').value;
+var Wtut  = document.getElementById('W_tut').value;
+var Qtut  = document.getElementById('Q_tut').value;
+var Btut  = document.getElementById('B_tut').value;
 
 /* Проверка на пустое поле */
 if (Wtut == ""){
