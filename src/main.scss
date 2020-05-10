@@ -1,4 +1,4 @@
-html * {
+html {
   outline: 1px solid red;
 }
 header{
@@ -6,9 +6,10 @@ header{
   background: linear-gradient(to bottom, #0000ff 0%, #003300 100%);
 }
 
-.content{
+.content {
+  position: relative;
   min-height: 100%;
-  background-image: url('/img/Orchestra.jpg');
+  /* background-image: url('/img/Orchestra.jpg'); */
 }
 
 footer{
