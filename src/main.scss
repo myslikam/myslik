@@ -1,3 +1,17 @@
 html * {
   outline: 1px solid red;
 }
+header{
+  height: 50px;
+  background: linear-gradient(to bottom, #0000ff 0%, #003300 100%);
+}
+
+.content{
+  min-height: 100%;
+  background-image: url('/img/Orchestra.jpg');
+}
+
+footer{
+  height: 50px;
+  background: linear-gradient(to bottom, #003300 0%, #0000ff 100%);
+}
