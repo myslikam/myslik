@@ -1,5 +1,5 @@
 /* html * {
-  outline: 0px solid red;
+  outline: 1px solid red;
 } */
 html, body {
   margin: 0px;
@@ -15,10 +15,12 @@ header{
 
 .content {
   position: absolute;
-  min-width: 100%;
   min-height: 100%;
-  background-image: url('/img/orchestra.jpg');
-  background-size: 100%;
+  min-width: 100%;       
+  background-image: url('/img/orchestra.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
  }
 
 footer{
@@ -41,7 +43,10 @@ display: flex;
 justify-content: space-between;
 }
 .logo{
-  height: 70px;
+  /* height: 70px; */
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 70px;
+  
   }
 .menu {
   display: flex;
