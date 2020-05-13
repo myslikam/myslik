@@ -42,17 +42,24 @@ margin: auto;
 display: flex;
 justify-content: space-between;
 }
+@font-face {
+  font-family: Brush Script MT, Brush Script Std, cursive; /* Имя шрифта */
+  src: url(/fonts/13578.otf); /* Путь к файлу со шрифтом */
+ }
+  
+
 .logo{
   /* height: 70px; */
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  font-size: 50px;
+  font-family:  Brush Script MT, Brush Script Std, cursive;
+  font-size: 70px;
   
   }
 .menu {
   display: flex;
   justify-content: space-between;
   margin: auto 0 auto 0;
-  width: 450px;  
+  width: 450px;
+  
 }
 .menu_button {
   height: 30px;
@@ -60,7 +67,20 @@ justify-content: space-between;
   border: 3px solid white;
   border-radius: 0 10px;
   margin: 5px;
+  
   }
+.menu > a{
+  text-decoration: none;
+}
 .menu_button > p {
    margin: 5px;
+   color: white;
 }
+.menu_button:hover {
+  background-color: rgb(126, 203, 233);
+  font-weight: bold;
+  font-size: 18px;
+ }
+ /* a:checked {
+  background-color: rgb(168, 87, 206);
+ } */
