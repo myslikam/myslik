@@ -1,17 +1,17 @@
-/* html * {
+html * {
   outline: 1px solid red;
-} */
+}
 html, body {
   margin: 0px;
   padding: 0px;
   }
-
+  
 @font-face {
   font-family: "Brush Script MT, Brush Script Std, cursive"; /* Имя шрифта */
   src: url('/fonts/13578.otf'); /* Путь к файлу со шрифтом */
-}
+ }
 
-header{
+ header{
   height: 100px;
   background: linear-gradient(to bottom, #0000ff 0%, #000f00 100%);
   text-align: center;
@@ -42,6 +42,7 @@ footer{
   max-width: 1200px;
   margin: auto;
 }
+
 .menu_logo{
 margin: auto;
 display: flex;
@@ -49,38 +50,51 @@ justify-content: space-between;
 }
 
 .logo{
-  /* height: 70px; */
   font-family:  "Brush Script MT, Brush Script Std, cursive";
   font-size: 70px;
-  
-  }
+}
 .menu {
   display: flex;
   justify-content: space-between;
   margin: auto 0 auto 0;
-  width: 450px;
-  
+  width: 500px;
 }
+
 .menu_button {
   height: 30px;
   width: 100px;
   border: 3px solid white;
   border-radius: 0 10px;
   margin: 5px;
-  
-  }
+}
+
 .menu > a{
   text-decoration: none;
 }
+
 .menu_button > p {
    margin: 5px;
    color: white;
 }
+
 .menu_button:hover {
   background-color: rgb(59, 62, 224);
   font-weight: bold;
   font-size: 18px;
  }
- /* a:checked {
-  background-color: rgb(168, 87, 206);
- } */
+
+ @font-face {
+  font-family: "EvangelieTT"; /* Имя шрифта */
+  src: url('/fonts/EvangelieTT.ttf'); /* Путь к файлу со шрифтом */
+ }
+
+.content_index  {
+  /* position: absolute; */
+  left: 50%;
+  margin: auto;
+  max-width: 1200px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  font-family: "EvangelieTT";
+}
