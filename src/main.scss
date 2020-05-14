@@ -6,6 +6,11 @@ html, body {
   padding: 0px;
   }
 
+@font-face {
+  font-family: "Brush Script MT, Brush Script Std, cursive"; /* Имя шрифта */
+  src: url('/fonts/13578.otf'); /* Путь к файлу со шрифтом */
+}
+
 header{
   height: 100px;
   background: linear-gradient(to bottom, #0000ff 0%, #000f00 100%);
@@ -42,15 +47,12 @@ margin: auto;
 display: flex;
 justify-content: space-between;
 }
-@font-face {
-  font-family: Brush Script MT, Brush Script Std, cursive; /* Имя шрифта */
-  src: url(/fonts/13578.otf); /* Путь к файлу со шрифтом */
- }
+
   
 
 .logo{
   /* height: 70px; */
-  font-family:  Brush Script MT, Brush Script Std, cursive;
+  font-family:  "Brush Script MT, Brush Script Std, cursive";
   font-size: 70px;
   
   }
