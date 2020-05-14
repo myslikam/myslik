@@ -1,7 +1,7 @@
 @charset "UTF-8";
-html * {
-  outline: 1px solid red; }
-
+/* html * {
+  outline: 1px solid red;
+} */
 html, body {
   margin: 0px;
   padding: 0px; }
@@ -14,7 +14,7 @@ html, body {
 
 header {
   height: 100px;
-  background: linear-gradient(to bottom, #0000ff 0%, #000f00 100%);
+  background: linear-gradient(to bottom, #0000ff 0%, #02000f 100%);
   text-align: center;
   color: white; }
 
@@ -22,17 +22,19 @@ header {
   position: absolute;
   min-height: 100%;
   min-width: 100%;
-  background-image: url("/img/orchestra.png");
+  /* background-color: rgba(7, 21, 146, 0.342);  */
+  background-image: url("/img/fon4.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  /* opacity : 0.3; */ }
 
 footer {
   position: absolute;
   top: 100%;
   width: 100%;
   height: 100px;
-  background: linear-gradient(to bottom, #001100 0%, #0000ff 100%);
+  background: linear-gradient(to bottom, #000011 0%, #0000ff 100%);
   text-align: center;
   color: white; }
 
@@ -52,7 +54,7 @@ footer {
 .menu {
   display: flex;
   justify-content: space-between;
-  margin: auto 0 auto 0;
+  margin: auto 0 auto 10px;
   width: 500px; }
 
 .menu_button {
@@ -74,11 +76,8 @@ footer {
   font-weight: bold;
   font-size: 18px; }
 
-@font-face {
-  font-family: "EvangelieTT";
-  /* Имя шрифта */
-  src: url("/fonts/EvangelieTT.ttf");
-  /* Путь к файлу со шрифтом */ }
+.menu_button:active {
+  background-color: #adaec9; }
 
 .content_index {
   /* position: absolute; */
@@ -88,6 +87,10 @@ footer {
   font-weight: bold;
   color: white;
   font-size: 20px;
-  font-family: "EvangelieTT"; }
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+.content_video {
+  margin: 20px auto;
+  max-width: 1200px; }
 
 /*# sourceMappingURL=maps/main.css.map */
