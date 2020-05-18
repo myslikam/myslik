@@ -134,8 +134,15 @@ text-align: center;
   font-size: 14px;
   max-width: 270px;
   color: white;
-  
-}
+ }
+ .name_video:first-letter {
+   color: rgba(0, 225, 255, 0.986);
+   font-weight: bold;
+   /* font-style: italic; */
+   font-size: 15px;
+ }
+
+
 .name_video > p {
   margin: auto;
 }
