@@ -2,6 +2,52 @@
 /* html * {
   outline: 1px solid red;
  } */
+.table_music {
+  max-width: 1200px;
+  margin: auto; }
+
+caption {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0 5px 0;
+  color: white; }
+
+thead {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  /* border: 2px solid rgb(245, 242, 242); */
+  background-color: #2154d3; }
+
+tbody {
+  border-collapse: collapse;
+  /* border: 1px solid rgb(238, 235, 235); */
+  text-align: center;
+  /*  color:#0000ff 0%; */
+  background-color: #c4d0ee; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+tr, td {
+  border: 2px solid white;
+  height: 30px; }
+
+table td:first-child {
+  text-align: center;
+  width: 25px; }
+
+tbody td:nth-child(2) {
+  text-align: left; }
+
+tbody td:nth-child(3) {
+  width: 100px; }
+
+tbody td:nth-child(4) {
+  width: 100px; }
+
 html, body {
   margin: 0px;
   padding: 0px; }
@@ -28,12 +74,10 @@ header {
   position: absolute;
   height: 100%;
   min-width: 100%;
-  /* background-color: rgba(7, 21, 146, 0.342);  */
   background-image: url("/img/fon4.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  /* opacity : 0.3; */ }
+  background-size: cover; }
 
 footer {
   position: absolute;
@@ -100,64 +144,5 @@ footer {
   margin: 20px 0;
   color: white;
   text-align: center; }
-
-.content_video {
-  margin: 20px auto 40px auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between; }
-
-iframe {
-  width: 290px;
-  height: 170px; }
-
-.video_block {
-  height: auto;
-  border: 1px solid white; }
-
-.video {
-  text-align: center; }
-
-.name_video {
-  margin: 5px 10px 0px 5px;
-  padding: 0;
-  font-size: 18px;
-  max-width: 270px;
-  color: white; }
-
-.name_video:first-letter {
-  color: rgba(0, 225, 255, 0.986);
-  font-weight: bold;
-  font-size: 15px; }
-
-.name_video > p {
-  margin: auto; }
-
-/* .content_video_none {
-  
-  margin: 20px auto 45px auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  } */
-.str {
-  margin: 0;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: none; }
-
-.str:hover {
-  color: red; }
-
-a {
-  text-decoration: none; }
-
-/* .video_block_none {
-  display: none;
-}
-a:active {
-  display: block;
-} */
 
 /*# sourceMappingURL=maps/main.css.map */
