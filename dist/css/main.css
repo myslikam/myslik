@@ -11,7 +11,8 @@ caption {
   font-size: 18px;
   text-align: center;
   margin: 10px 0 5px 0;
-  color: white; }
+  color: white;
+  font-family: 'Mon Amour Two Medium', arial; }
 
 thead {
   text-align: center;
@@ -59,7 +60,8 @@ html, body {
   /* Путь к файлу со шрифтом */ }
 
 h1, p, h2 {
-  font-family: 'CyrillicOld', arial; }
+  /* font-family: 'CyrillicOld', arial; */
+  font-family: 'Mon Amour Two Medium', arial; }
 
 .content_index > h1 {
   text-align: center; }
