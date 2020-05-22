@@ -34,7 +34,8 @@ table {
 
 tr, td {
   border: 2px solid white;
-  height: 30px; }
+  height: 30px;
+  font-family: 'Mon Amour Two Medium', arial; }
 
 table td:first-child {
   text-align: center;
@@ -76,7 +77,7 @@ header {
   position: absolute;
   height: 100%;
   min-width: 100%;
-  background-image: url("/img/fon4.jpg");
+  background-image: url("/img/fon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -133,18 +134,32 @@ footer {
   background-color: #adaec9; }
 
 .content_index {
-  /* position: absolute; */
   left: 50%;
   margin: auto;
   max-width: 1200px;
   font-weight: bold;
   color: white;
   font-size: 20px;
+  text-indent: 20px;
+  /* красная строка */
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
 
-.content > h2 {
+.content > h1 {
   margin: 20px 0;
   color: white;
   text-align: center; }
+
+.img_index_1 {
+  max-height: 250px;
+  float: left;
+  margin: 10px; }
+
+.img_index_2 {
+  max-height: 250px;
+  float: right;
+  margin: 10px; }
+
+.content_index > p {
+  text-align: justify; }
 
 /*# sourceMappingURL=maps/main.css.map */

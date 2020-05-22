@@ -32,7 +32,7 @@ h1, p, h2 {
   position: absolute;
   height: 100%;
   min-width: 100%;
-  background-image: url('/img/fon4.jpg');
+  background-image: url('/img/fon.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;  
@@ -100,19 +100,32 @@ justify-content: space-between;
 
 
 .content_index  {
-  /* position: absolute; */
   left: 50%;
   margin: auto;
   max-width: 1200px;
   font-weight: bold;
   color: white;
   font-size: 20px;
+  text-indent: 20px; /* красная строка */
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.content > h2 {
+.content > h1 {
   margin: 20px 0;
   color: white;
-  text-align: center;
+  text-align: center;  
+}
+.img_index_1 {
+  max-height: 250px;
+  float: left;
+  margin: 10px;
+}
+.img_index_2 {
+  max-height: 250px;
+  float: right;
+  margin: 10px;
+}
+.content_index > p {
+  text-align: justify;
 }
 
 
