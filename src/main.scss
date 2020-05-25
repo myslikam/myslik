@@ -16,6 +16,7 @@ html, body {
 h1, p, h2 {
   /* font-family: 'CyrillicOld', arial; */
   font-family: 'Mon Amour Two Medium', arial;
+  margin: 0;
   }
 .content_index > h1 {
   text-align: center;
@@ -26,27 +27,33 @@ h1, p, h2 {
   background: linear-gradient(to bottom, #0000ff 0%, #02000f 100%);
   text-align: center;
   color: white;
+  margin: 0;
  }
 
 .content {
-  position: absolute;
-  height: 100%;
+ /*  position: absolute; */
+  min-height: 100vh;
   min-width: 100%;
+  /* height: 100vh; */
   background-image: url('/img/fon.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;  
+  background-size: cover;
+  margin: 0;
  }
 
 footer{
-  position: absolute;
-  top: 100%;
+  /* position: absolute; */
+  /* top: 100%; */
   width: 100%;
   height: 100px;
   background: linear-gradient(to bottom, #000011 0%, #0000ff 100%);
   text-align: center;
   color: white;
+  bottom: 0;
+  padding-top: 45px;
 }
+
 
 .header_div{
   max-width: 1200px;
