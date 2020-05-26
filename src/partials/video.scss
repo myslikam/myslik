@@ -30,9 +30,10 @@ tbody/* , tr, td */ {
     width: 100%;
      }
   tr, td {
+    /* color: black; */
     border: 2px solid white;
     height: 30px;
-    font-family: 'Mon Amour Two Medium', arial;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
     
   table td:first-child {
@@ -48,4 +49,12 @@ tbody/* , tr, td */ {
   tbody td:nth-child(4) {
     width: 100px;
   } 
+  
+a:hover {
+  color: red;
+  transition-duration: .3s;  
+}
+td > a {
+  text-decoration: none;
+}
   

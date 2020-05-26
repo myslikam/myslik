@@ -33,9 +33,10 @@ table {
   width: 100%; }
 
 tr, td {
+  /* color: black; */
   border: 2px solid white;
   height: 30px;
-  font-family: 'Mon Amour Two Medium', arial; }
+  font-family: "Comic Sans MS", cursive, sans-serif; }
 
 table td:first-child {
   text-align: center;
@@ -50,9 +51,16 @@ tbody td:nth-child(3) {
 tbody td:nth-child(4) {
   width: 100px; }
 
+a:hover {
+  color: red;
+  transition-duration: .3s; }
+
+td > a {
+  text-decoration: none; }
+
 html, body {
-  margin: 0px;
-  padding: 0px; }
+  margin: 0;
+  padding: 0; }
 
 @font-face {
   font-family: "Brush Script MT, Brush Script Std, cursive";
@@ -62,7 +70,8 @@ html, body {
 
 h1, p, h2 {
   /* font-family: 'CyrillicOld', arial; */
-  font-family: 'Mon Amour Two Medium', arial; }
+  font-family: 'Mon Amour Two Medium', arial;
+  margin: 0; }
 
 .content_index > h1 {
   text-align: center; }
@@ -71,25 +80,26 @@ header {
   height: 100px;
   background: linear-gradient(to bottom, #0000ff 0%, #02000f 100%);
   text-align: center;
-  color: white; }
+  color: white;
+  margin: 0; }
 
 .content {
-  position: absolute;
-  height: 100%;
+  /*  position: absolute; */
+  min-height: 100vh;
   min-width: 100%;
   background-image: url("/img/fon.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  margin: 0; }
 
 footer {
-  position: absolute;
-  top: 100%;
-  width: 100%;
   height: 100px;
   background: linear-gradient(to bottom, #000011 0%, #0000ff 100%);
   text-align: center;
-  color: white; }
+  color: white;
+  bottom: 0;
+  padding-top: 45px; }
 
 .header_div {
   max-width: 1200px;
