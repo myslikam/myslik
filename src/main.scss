@@ -1,4 +1,4 @@
- /* html * {
+/*  html * {
   outline: 1px solid red;
  } */
  @import './partials/video.scss';
@@ -130,5 +130,13 @@ justify-content: space-between;
   text-align: justify;
 }
 
+.content_kontakt {
+  height: 300px;
+  text-align: center;
+}
 
+iframe {
+   margin: 2px 2px 2px 200px;  
+   text-align: center;
+}
 

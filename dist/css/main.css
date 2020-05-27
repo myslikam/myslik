@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* html * {
+/*  html * {
   outline: 1px solid red;
  } */
 .table_music {
@@ -8,7 +8,7 @@
 
 caption {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   margin: 10px 0 5px 0;
   color: white;
@@ -37,7 +37,8 @@ tr, td {
   border: 2px solid white;
   height: 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  font-size: 18px; }
 
 table td:first-child {
   text-align: center;
@@ -172,5 +173,13 @@ footer {
 
 .content_index > p {
   text-align: justify; }
+
+.content_kontakt {
+  height: 300px;
+  text-align: center; }
+
+iframe {
+  margin: 2px 2px 2px 200px;
+  text-align: center; }
 
 /*# sourceMappingURL=maps/main.css.map */
