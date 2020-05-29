@@ -13,7 +13,7 @@ html, body {
   src: url('/fonts/13578.otf'); /* Путь к файлу со шрифтом */
  }
 
-h1, p, h2 {
+h1, p, h2, h3 {
   /* font-family: 'CyrillicOld', arial; */
   font-family: 'Mon Amour Two Medium', arial;
   margin: 0;
@@ -130,13 +130,23 @@ justify-content: space-between;
   text-align: justify;
 }
 
-.content_kontakt {
-  height: 300px;
+ h3 {
+  font-family: 'Mon Amour Two Medium', arial;
+  margin: 0;
   text-align: center;
-}
-
-iframe {
-   margin: 2px 2px 2px 200px;  
-   text-align: center;
-}
-
+  }
+  
+  .content_kontakt {
+    height: 300px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  
+  iframe {
+     margin: 20px 2px 2px 200px;  
+     text-align: center;
+  }
+  .img_index_kontakt {
+    margin: 40px;
+    width: 400px;
+  }
