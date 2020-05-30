@@ -1,6 +1,7 @@
-/*  html * {
+ /* html * {
   outline: 1px solid red;
  } */
+
  @import './partials/video.scss';
 
 html, body {
@@ -137,16 +138,20 @@ justify-content: space-between;
   }
   
   .content_kontakt {
-    height: 300px;
+    /* height: 300px; */
     text-align: center;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: auto;
+    }
+  
+ 
+  .img_index_kontakt {
+    margin: 10px;
+    width: 400px;
   }
   
-  iframe {
-     margin: 20px 2px 2px 200px;  
-     text-align: center;
-  }
-  .img_index_kontakt {
-    margin: 40px;
-    width: 400px;
+  .maps {
+    display: block;
+    margin: 40px auto auto auto;
+    height: 500px;
   }

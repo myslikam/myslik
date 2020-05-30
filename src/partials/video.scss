@@ -25,11 +25,11 @@ tbody/* , tr, td */ {
    /*  color:#0000ff 0%; */
     background-color: #c4d0ee; 
   }
-  table {
+table {
     border-collapse: collapse;
     width: 100%;
      }
-  tr, td {
+tr, td {
     /* color: black; */
     border: 2px solid white;
     height: 30px;
@@ -38,17 +38,17 @@ tbody/* , tr, td */ {
     font-size: 18px;
   }
     
-  table td:first-child {
+table td:first-child {
     text-align: center;
     width: 25px;
   }
-  tbody td:nth-child(2) {
+tbody td:nth-child(2) {
     text-align: left;
   } 
-  tbody td:nth-child(3) {
+tbody td:nth-child(3) {
     width: 100px;
   } 
-  tbody td:nth-child(4) {
+tbody td:nth-child(4) {
     width: 100px;
   } 
   

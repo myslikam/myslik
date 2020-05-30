@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*  html * {
+/* html * {
   outline: 1px solid red;
  } */
 .table_music {
@@ -70,7 +70,7 @@ html, body {
   src: url("/fonts/13578.otf");
   /* Путь к файлу со шрифтом */ }
 
-h1, p, h2 {
+h1, p, h2, h3 {
   /* font-family: 'CyrillicOld', arial; */
   font-family: 'Mon Amour Two Medium', arial;
   margin: 0; }
@@ -174,12 +174,24 @@ footer {
 .content_index > p {
   text-align: justify; }
 
-.content_kontakt {
-  height: 300px;
+h3 {
+  font-family: 'Mon Amour Two Medium', arial;
+  margin: 0;
   text-align: center; }
 
-iframe {
-  margin: 2px 2px 2px 200px;
-  text-align: center; }
+.content_kontakt {
+  /* height: 300px; */
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: auto; }
+
+.img_index_kontakt {
+  margin: 10px;
+  width: 400px; }
+
+.maps {
+  display: block;
+  margin: 40px auto auto auto;
+  height: 500px; }
 
 /*# sourceMappingURL=maps/main.css.map */
