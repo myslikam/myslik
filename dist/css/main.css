@@ -12,7 +12,7 @@ caption {
   text-align: center;
   margin: 10px 0 5px 0;
   color: white;
-  font-family: 'Mon Amour Two Medium', arial; }
+  font-family: "'Mon Amour Two Medium', arial"; }
 
 thead {
   text-align: center;
@@ -70,10 +70,19 @@ html, body {
   src: url("/fonts/13578.otf");
   /* Путь к файлу со шрифтом */ }
 
+@font-face {
+  font-family: "'Mon Amour Two Medium', arial";
+  /* Имя шрифта */
+  src: url("/fonts/mon-amour-two-medium_[allfont.ru].ttf");
+  /* Путь к файлу со шрифтом */ }
+
 h1, p, h2, h3 {
   /* font-family: 'CyrillicOld', arial; */
-  font-family: 'Mon Amour Two Medium', arial;
+  font-family: "'Mon Amour Two Medium', arial";
   margin: 0; }
+
+h3 {
+  font-family: "'Mon Amour Two Medium', arial"; }
 
 .content_index > h1 {
   text-align: center; }
