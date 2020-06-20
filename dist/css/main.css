@@ -10,7 +10,7 @@ html * {
 
 .photo_slider_nakipy {
   position: absolute;
-  animation: round 10s infinite;
+  animation: round 15s infinite;
   opacity: 0;
   width: 100%; }
 
